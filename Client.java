@@ -56,7 +56,7 @@ public class Client {
 
 		}
 		catch (Exception e) {
-			System.out.println("какая-то ошибка ");
+			System.out.println("You have some problem with inputing symbols");
 		}
 
 	}
@@ -80,7 +80,7 @@ public class Client {
 			}
 
 		}
-		catch (IOException ioe)		{System.out.println("Ошибка связи");}
+		catch (IOException ioe)		{System.out.println("You have some problem with server");}
 	}
 
 	public static void main(java.lang.String[] args) {
